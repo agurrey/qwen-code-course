@@ -98,5 +98,5 @@ to switch models if you have alternatives available.
 
 Great catch! Please report it:
 1. Note the lesson number and what went wrong
-2. Open an issue at the [GitHub repo](https://github.com/YOUR-USERNAME/qwen-code-course/issues)
-3. Or fix it yourself — see [CONTRIBUTING.md](https://github.com/YOUR-USERNAME/qwen-code-course/blob/main/CONTRIBUTING.md)
+2. Open an issue at the [GitHub repo](https://github.com/agurrey/qwen-code-course/issues)
+3. Or fix it yourself — see [CONTRIBUTING.md](https://github.com/agurrey/qwen-code-course/blob/main/CONTRIBUTING.md)

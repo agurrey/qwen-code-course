@@ -59,7 +59,7 @@ If you've used a terminal before, you can skip the early modules. If you've used
 npm install -g @qwen-code/qwen-code
 
 # Install the course
-git clone https://github.com/YOUR-USERNAME/qwen-code-course.git
+git clone https://github.com/agurrey/qwen-code-course.git
 cd qwen-code-course
 bash scripts/install.sh
 
@@ -70,12 +70,12 @@ qwen
 
 ## Get the Code
 
-[GitHub Repository](https://github.com/YOUR-USERNAME/qwen-code-course)
+[GitHub Repository](https://github.com/agurrey/qwen-code-course)
 
 ## Contributing
 
-This course is community-maintained. Anyone can add lessons, fix bugs, or improve content. See [CONTRIBUTING.md](https://github.com/YOUR-USERNAME/qwen-code-course/blob/main/CONTRIBUTING.md) for how to get started.
+This course is community-maintained. Anyone can add lessons, fix bugs, or improve content. See [CONTRIBUTING.md](https://github.com/agurrey/qwen-code-course/blob/main/CONTRIBUTING.md) for how to get started.
 
 ## License
 
-[MIT License](https://github.com/YOUR-USERNAME/qwen-code-course/blob/main/LICENSE)
+[MIT License](https://github.com/agurrey/qwen-code-course/blob/main/LICENSE)

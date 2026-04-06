@@ -38,7 +38,7 @@
 
 ```bash
 # Clone this repo
-git clone https://github.com/YOUR-USERNAME/qwen-code-course.git
+git clone https://github.com/agurrey/qwen-code-course.git
 cd qwen-code-course
 
 # Install the course into your Qwen Code setup

@@ -21,6 +21,8 @@ When the user runs `/course` with arguments, route to the appropriate action:
 - **`/course reset`** → Reset all progress (with confirmation)
 - **`/course` (no args)** → Show welcome message and available commands
 
+Note: The `/doctor` command is a separate command (not a sub-command of `/course`) that runs a full health check of the Qwen Code environment.
+
 ## Core Rules
 
 1. **Always read the progress file** (`~/.qwen/course-progress.json`) before any action

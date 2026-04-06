@@ -1,10 +1,10 @@
 ---
-description: Show current course progress, completed lessons, and what's next.
+description: Show current course progress, Qwen Code environment info, and what's next.
 ---
 
-Show the user their current progress in the Qwen Code Course.
+Show the user their current progress in the Qwen Code Course, combined with Qwen Code environment status.
 
-## Step 1: Read progress file
+## Step 1: Read progress file + environment
 
 Read `~/.qwen/course-progress.json`. If it doesn't exist, say:
 
@@ -12,29 +12,33 @@ Read `~/.qwen/course-progress.json`. If it doesn't exist, say:
 No progress found. Start the course with: /course start
 ```
 
-## Step 2: Display progress
+Also read `~/.qwen/settings.json` for environment info.
 
-Format and show:
+## Step 2: Display combined status
 
 ```
-=== Qwen Code Course — Progress ===
+=== Qwen Code Course — Status ===
 
-Overall: X/60 lessons completed (Y%)
+── Environment ──
+Model:           [from settings.json model.name]
+Approval Mode:   [from settings.json tools.approvalMode]
+Auth:            [from settings.json security.auth.selectedType]
+QWEN.md:         [exists/missing]
 
-Current Module: [Module N: Title]
-Module progress: A/B lessons completed
+── Progress ──
+Overall:         X/60 lessons completed (Y%)
+Course Version:  [from progress file]
+Last Active:     [date, or "never"]
+
+── Current Position ──
+Module:          [Module N: Title]
+Module Progress: A/B lessons completed
+Next Lesson:     X.Y [title]
 
 Completed Lessons:
   ✅ 0.1 [title]
   ✅ 0.2 [title]
   ...
-
-Next Lesson: X.Y [title]
-
-Initial Assessment Results:
-  Terminal experience: [answer]
-  AI experience: [answer]
-  First goal: [what they said they want to build]
 ```
 
 ## Step 3: Show module overview
@@ -55,8 +59,29 @@ If `stagnant_since` is set or `last_active` is more than 7 days ago:
 Or take a quick refresher on where you left off?
 ```
 
-## Step 5: Update last_active
+## Step 5: Initial assessment (if completed)
+
+If `initial_assessment` has values:
+```
+── Your Profile ──
+Terminal exp:    [answer]
+AI exp:          [answer]
+First goal:      [what they said]
+```
+
+## Step 6: Update last_active
 
 Set `last_active` to now in the progress file.
+
+## Step 7: Quick actions
+
+At the bottom, show available actions:
+```
+Quick actions:
+  /course next      — Continue to next lesson
+  /course test-out  — Skip a module
+  /course cheatsheet — Generate your cheat sheet
+  /doctor           — Run full environment health check
+```
 
 Topic: {{args}}

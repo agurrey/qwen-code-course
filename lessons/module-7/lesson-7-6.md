@@ -332,7 +332,7 @@ cat > mcp-entry.json << 'EOF'
   "mcpServers": {
     "wordcount": {
       "command": "python3",
-      "args": ["/home/agurrey/qwen-course-work/module-7/custom-server/wordcount_server.py"],
+      "args": ["/path/to/project/wordcount_server.py"],
       "env": {},
       "disabled": false
     }

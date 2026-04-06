@@ -41,7 +41,7 @@ The terminal is just a text box where you type instructions to your computer. Th
 
 4. You should see your username printed back:
    ```
-   agurrey
+   yourusername
    ```
 
 Congratulations. You just gave your computer an instruction through text. That's all a terminal ever does.

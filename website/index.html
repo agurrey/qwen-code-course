@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Qwen Code — By Using Qwen Code</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #e5e7eb; background: #0f172a; }
+        .container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+        nav { background: #1e293b; padding: 1rem 0; border-bottom: 1px solid #334155; }
+        nav .container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        nav a { color: #94a3b8; text-decoration: none; font-size: 0.9rem; }
+        nav a:hover { color: #e5e7eb; }
+        nav .logo { color: #38bdf8; font-weight: 700; font-size: 1.1rem; }
+        header { text-align: center; padding: 4rem 0 3rem; }
+        header h1 { font-size: 2.5rem; color: #f8fafc; margin-bottom: 1rem; }
+        header h1 span { color: #38bdf8; }
+        header p { font-size: 1.2rem; color: #94a3b8; max-width: 600px; margin: 0 auto 2rem; }
+        .cta { display: inline-block; background: #38bdf8; color: #0f172a; padding: 0.75rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600; margin: 0.5rem; }
+        .cta:hover { background: #7dd3fc; }
+        .cta.secondary { background: transparent; border: 2px solid #38bdf8; color: #38bdf8; }
+        .cta.secondary:hover { background: #38bdf8; color: #0f172a; }
+        section { padding: 3rem 0; }
+        section:nth-child(even) { background: #1e293b; }
+        h2 { font-size: 1.8rem; color: #f8fafc; margin-bottom: 1.5rem; }
+        h3 { font-size: 1.3rem; color: #e2e8f0; margin: 1.5rem 0 0.75rem; }
+        table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+        th, td { padding: 0.75rem 1rem; text-align: left; border-bottom: 1px solid #334155; }
+        th { color: #38bdf8; font-weight: 600; }
+        td { color: #cbd5e1; }
+        code { background: #1e293b; padding: 0.2rem 0.5rem; border-radius: 4px; color: #38bdf8; font-size: 0.9em; }
+        pre { background: #1e293b; padding: 1rem; border-radius: 8px; overflow-x: auto; margin: 1rem 0; }
+        pre code { background: none; padding: 0; color: #e5e7eb; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+        .feature { background: #0f172a; padding: 1.5rem; border-radius: 8px; border: 1px solid #334155; }
+        .feature h4 { color: #38bdf8; margin-bottom: 0.5rem; }
+        .feature p { color: #94a3b8; font-size: 0.9rem; }
+        footer { background: #1e293b; padding: 2rem 0; text-align: center; color: #64748b; font-size: 0.85rem; border-top: 1px solid #334155; }
+        footer a { color: #38bdf8; text-decoration: none; }
+        .steps { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1.5rem 0; }
+        .step { flex: 1; min-width: 140px; background: #0f172a; padding: 1rem; border-radius: 8px; border: 1px solid #334155; text-align: center; }
+        .step-num { font-size: 2rem; font-weight: 700; color: #38bdf8; }
+        .step p { color: #94a3b8; font-size: 0.85rem; margin-top: 0.5rem; }
+        .badge { display: inline-block; background: #22c55e; color: #0f172a; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.8rem; font-weight: 600; }
+        .gift-section { background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%); border: 1px solid #38bdf8; border-radius: 12px; padding: 2rem; margin: 2rem 0; text-align: center; }
+        .gift-section h3 { color: #38bdf8; font-size: 1.5rem; margin-bottom: 0.5rem; }
+        .gift-section p { color: #cbd5e1; margin-bottom: 1rem; }
+        .gift-badge { display: inline-block; background: #f59e0b; color: #0f172a; padding: 0.3rem 1rem; border-radius: 9999px; font-size: 0.85rem; font-weight: 700; margin-bottom: 1rem; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <a href="#" class="logo">Qwen Code Course</a>
+        <div>
+            <a href="#modules">Modules</a>
+            <a href="#install">Install</a>
+            <a href="#why">Why This</a>
+            <a href="https://github.com/agurrey/qwen-code-course" target="_blank">GitHub</a>
+        </div>
+    </div>
+</nav>
+
+<header>
+    <div class="container">
+        <h1>Learn <span>Qwen Code</span>.<br>By Using Qwen Code.</h1>
+        <p>A free, interactive course for total beginners. No prior terminal experience needed. No downloads, no videos, no separate apps.</p>
+        <span class="badge">12 Modules &bull; 60 Lessons &bull; Complete</span>
+        <br><br>
+        <a href="#install" class="cta">Get Started</a>
+        <a href="https://github.com/agurrey/qwen-code-course" class="cta secondary" target="_blank">View on GitHub</a>
+    </div>
+</header>
+
+<section id="why">
+    <div class="container">
+        <h2>Why This Approach?</h2>
+        <div class="features">
+            <div class="feature">
+                <h4>Learn by Doing</h4>
+                <p>Every lesson has exercises with real output. No "read this and understand" — you always DO something.</p>
+            </div>
+            <div class="feature">
+                <h4>No Context Switching</h4>
+                <p>The course IS the tool you're learning. No videos, no separate apps. Everything happens in your terminal.</p>
+            </div>
+            <div class="feature">
+                <h4>Self-Paced</h4>
+                <p>Start, stop, come back. Your progress is tracked automatically. ~6 hours total, at your own speed.</p>
+            </div>
+            <div class="feature">
+                <h4>Open Source</h4>
+                <p>Built by the community, for the community. Fork it, contribute, make it better. MIT licensed.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gift">
+    <div class="container">
+        <div class="gift-section">
+            <span class="gift-badge">🎁 Free Gift from Iñaki</span>
+            <h3>/pre-plan — Before You Plan, Think</h3>
+            <p>A structured thinking tool that surfaces blind spots, hidden decisions, and wrong assumptions before you write a single line of plan. Works for anything — projects, products, decisions.</p>
+            <a href="https://github.com/agurrey/pre-plan" class="cta secondary" target="_blank" style="border-color: #38bdf8;">Get /pre-plan Free →</a>
+        </div>
+    </div>
+</section>
+
+<section id="modules">
+    <div class="container">
+        <h2>Course Modules</h2>
+        <p style="color: #94a3b8; margin-bottom: 1rem;">12 modules, 60 lessons, ~6 hours total</p>
+        <table>
+            <thead>
+                <tr><th>Module</th><th>Title</th><th>Lessons</th><th>Time</th><th>Status</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>0</td><td>Your First 5 Minutes</td><td>3</td><td>5 min</td><td>✅</td></tr>
+                <tr><td>1</td><td>What Is Qwen Code?</td><td>4</td><td>15 min</td><td>✅</td></tr>
+                <tr><td>2</td><td>Your First Commands</td><td>6</td><td>30 min</td><td>✅</td></tr>
+                <tr><td>3</td><td>Files & Projects</td><td>5</td><td>25 min</td><td>✅</td></tr>
+                <tr><td>4</td><td>The Tools Qwen Uses</td><td>7</td><td>45 min</td><td>✅</td></tr>
+                <tr><td>5</td><td>Custom Commands</td><td>5</td><td>30 min</td><td>✅</td></tr>
+                <tr><td>6</td><td>Skills & Auto-Discovery</td><td>5</td><td>30 min</td><td>✅</td></tr>
+                <tr><td>7</td><td>MCP Servers</td><td>6</td><td>40 min</td><td>✅</td></tr>
+                <tr><td>8</td><td>Agents & Sub-Agents</td><td>5</td><td>35 min</td><td>✅</td></tr>
+                <tr><td>9</td><td>Hooks, Safety & Approval</td><td>5</td><td>30 min</td><td>✅</td></tr>
+                <tr><td>10</td><td>Memory & Context</td><td>5</td><td>30 min</td><td>✅</td></tr>
+                <tr><td>11</td><td>Your Real Project</td><td>4</td><td>60 min</td><td>✅</td></tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section id="install">
+    <div class="container">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-num">1</div>
+                <p>Install Qwen Code</p>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <p>Clone & install course</p>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <p>Type <code>/course start</code></p>
+            </div>
+            <div class="step">
+                <div class="step-num">4</div>
+                <p>Learn by doing</p>
+            </div>
+        </div>
+
+        <h3>Quick Start</h3>
+        <pre><code># Install Qwen Code
+npm install -g @qwen-code/qwen-code
+
+# Clone and install the course
+git clone https://github.com/agurrey/qwen-code-course.git
+cd qwen-code-course
+bash scripts/install.sh
+
+# Start learning
+qwen
+# Then type: /course start</code></pre>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>What You'll Build</h2>
+        <p style="color: #94a3b8;">By the end of this course, you'll have:</p>
+        <ul style="color: #cbd5e1; margin: 1rem 0 1rem 1.5rem;">
+            <li>A complete understanding of every Qwen Code tool</li>
+            <li>Your own custom commands and skills</li>
+            <li>Connected MCP servers for your workflow</li>
+            <li>A real project built entirely with Qwen Code</li>
+            <li>A personalized cheat sheet for daily reference</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>Open source under the <a href="https://github.com/agurrey/qwen-code-course/blob/main/LICENSE" target="_blank">MIT License</a>.</p>
+        <p>Built with ❤️ for the Qwen Code community. <a href="https://github.com/agurrey/qwen-code-course" target="_blank">Contribute on GitHub</a>.</p>
+    </div>
+</footer>
+
+</body>
+</html>

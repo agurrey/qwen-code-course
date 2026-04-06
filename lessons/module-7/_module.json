@@ -1,0 +1,15 @@
+{
+  "module": 7,
+  "title": "MCP Servers",
+  "description": "Connect external tools and services to Qwen Code using the Model Context Protocol.",
+  "lessons": 6,
+  "estimated_time": "40 minutes",
+  "prerequisites": ["module-6"],
+  "learning_objectives": [
+    "Understand what MCP servers are and why they exist",
+    "Add and configure MCP servers in your Qwen Code environment",
+    "Distinguish between MCP tools and built-in tools",
+    "Configure authentication and environment variables for MCP servers",
+    "Build a simple custom MCP server in Python"
+  ]
+}

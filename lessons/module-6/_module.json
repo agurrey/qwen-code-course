@@ -1,0 +1,1 @@
+{"module": 6, "title": "Skills & Auto-Discovery", "description": "Give Qwen Code domain-specific capabilities through skills.", "lessons": 5, "estimated_time": "35 minutes", "prerequisites": ["module-5"], "learning_objectives": ["Understand skills and SKILL.md", "Write skills with triggers", "Build skills with supporting files", "Decide between skills and commands"]}

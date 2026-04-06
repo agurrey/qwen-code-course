@@ -1,0 +1,17 @@
+{
+  "module": 4,
+  "title": "The Tools Qwen Uses",
+  "description": "Master every tool Qwen Code has access to. Read, Write, Edit, Shell, Grep, Glob, and Web Fetch — deep dive into each.",
+  "lessons": 7,
+  "estimated_time": "35 minutes",
+  "prerequisites": ["module-2"],
+  "learning_objectives": [
+    "Use the Read tool for single files, multiple files, and paginated reading",
+    "Use the Write tool to create structured content from scratch",
+    "Use the Edit tool for targeted changes, search-and-replace, and multi-edit",
+    "Run advanced shell commands with background processes, piping, and error handling",
+    "Search code with regex patterns, file type filters, and directory exclusions using Grep",
+    "Match file patterns with Glob including wildcards, exclusions, and combined tool workflows",
+    "Fetch web content, work with APIs, extract JSON, and handle errors and rate limits"
+  ]
+}

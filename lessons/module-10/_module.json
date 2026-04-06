@@ -1,0 +1,15 @@
+{
+  "module": 10,
+  "title": "Memory & Context",
+  "description": "Teach Qwen Code to remember your preferences, conventions, and project specifics across sessions.",
+  "lessons": 5,
+  "estimated_time": "30 minutes",
+  "prerequisites": ["module-9"],
+  "learning_objectives": [
+    "Understand the difference between conversation context and persistent memory",
+    "Write and maintain a personal MEMORY.md file",
+    "Set up project-level QWEN.md files for team-wide conventions",
+    "Prune and consolidate memory files as they grow",
+    "Use the /memory command to manage entries during a session"
+  ]
+}

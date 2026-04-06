@@ -5,7 +5,7 @@ This course is tested against specific Qwen Code versions to ensure compatibilit
 ## Current Target
 
 - **Qwen Code version:** >= 0.1.0
-- **Course version:** v0.1.0
+- **Course version:** v1.0.0
 - **Last updated:** 2026-04-06
 
 ## Compatibility Notes
@@ -20,3 +20,4 @@ This course is tested against specific Qwen Code versions to ensure compatibilit
 | Course Version | Qwen Code Version | Date | Notes |
 |---------------|-------------------|------|-------|
 | v0.1.0 | >= 0.1.0 | 2026-04-06 | Initial release — Modules 0-2 |
+| v1.0.0 | >= 0.1.0 | 2026-04-06 | All 12 modules complete, 60 lessons total |

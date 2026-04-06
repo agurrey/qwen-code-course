@@ -1,0 +1,15 @@
+{
+  "module": 8,
+  "title": "Agents & Sub-Agents",
+  "description": "Launch autonomous sub-processes that work independently to solve complex tasks.",
+  "lessons": 5,
+  "estimated_time": "35 minutes",
+  "prerequisites": ["module-7"],
+  "learning_objectives": [
+    "Understand what agents are and how they differ from normal Qwen Code sessions",
+    "Know when to delegate work to an agent versus doing it yourself",
+    "Write effective agent prompts with clear scope and instructions",
+    "Launch multiple agents in parallel for speed",
+    "Debug agent failures and fix problematic prompts"
+  ]
+}

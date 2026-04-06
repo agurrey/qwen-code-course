@@ -32,7 +32,7 @@
 | 10 | Memory & Context | 5 | 30 min |
 | 11 | Your Real Project | 4 | 60 min |
 
-**v0.1 status:** Modules 0-2 are built and working. Modules 3-11 are in progress.
+**v1.0:** All 12 modules complete. 60 lessons, ~6 hours total.
 
 ## Quick Start
 

@@ -1,0 +1,15 @@
+{
+  "module": 9,
+  "title": "Hooks, Safety & Approval",
+  "description": "Set up safety nets and control how Qwen Code acts without your approval.",
+  "lessons": 5,
+  "estimated_time": "30 minutes",
+  "prerequisites": ["module-8"],
+  "learning_objectives": [
+    "Understand what hooks are and how pre/post action hooks work",
+    "Write hooks that block destructive commands and warn on risky operations",
+    "Use approval modes effectively across different risk levels",
+    "Implement safety patterns to protect important directories",
+    "Run Qwen Code safely in CI/CD and non-interactive environments"
+  ]
+}

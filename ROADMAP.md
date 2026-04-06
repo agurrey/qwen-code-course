@@ -1,55 +1,45 @@
 # Roadmap
 
-What's built, what's in progress, and what's next.
+All modules complete. Course v1.0 is live.
 
 ## Status Legend
 
 - ✅ Complete — tested and working
-- 🚧 In progress — being built
-- 📋 Planned — designed, not started
 
 ## Modules
 
 | Module | Status | Lessons | Notes |
 |--------|--------|---------|-------|
-| 0: Your First 5 Minutes | 🚧 | 0/3 | Building now |
-| 1: What Is Qwen Code? | 📋 | 0/4 | Designed, not started |
-| 2: Your First Commands | 📋 | 0/6 | Designed, not started |
-| 3: Files & Projects | 📋 | 0/5 | Planned |
-| 4: The Tools Qwen Uses | 📋 | 0/7 | Planned |
-| 5: Custom Commands | 📋 | 0/5 | Planned |
-| 6: Skills & Auto-Discovery | 📋 | 0/5 | Planned |
-| 7: MCP Servers | 📋 | 0/6 | Planned |
-| 8: Agents & Sub-Agents | 📋 | 0/5 | Planned |
-| 9: Hooks, Safety & Approval | 📋 | 0/5 | Planned |
-| 10: Memory & Context | 📋 | 0/5 | Planned |
-| 11: Your Real Project | 📋 | 0/4 | Planned |
+| 0: Your First 5 Minutes | ✅ | 3/3 | Complete |
+| 1: What Is Qwen Code? | ✅ | 4/4 | Complete |
+| 2: Your First Commands | ✅ | 6/6 | Complete |
+| 3: Files & Projects | ✅ | 5/5 | Complete |
+| 4: The Tools Qwen Uses | ✅ | 7/7 | Complete |
+| 5: Custom Commands | ✅ | 5/5 | Complete |
+| 6: Skills & Auto-Discovery | ✅ | 5/5 | Complete |
+| 7: MCP Servers | ✅ | 6/6 | Complete |
+| 8: Agents & Sub-Agents | ✅ | 5/5 | Complete |
+| 9: Hooks, Safety & Approval | ✅ | 5/5 | Complete |
+| 10: Memory & Context | ✅ | 5/5 | Complete |
+| 11: Your Real Project | ✅ | 4/4 | Complete |
+
+**Total: 60 lessons across 12 modules**
 
 ## Infrastructure
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| `/course` command system | 🚧 | Building now |
-| Progress tracking (`progress.json`) | 🚧 | Building now |
-| Sandbox directory | 🚧 | Building now |
-| Lesson template | 🚧 | Building now |
-| Install script | 📋 | Planned |
-| Test script | 📋 | Planned |
-| Cheatsheet generator | 📋 | Planned |
-| qwen-tutor skill | 📋 | Planned |
+| `/course` command system | ✅ | start, next, status, test-out, cheatsheet |
+| Progress tracking | ✅ | course-progress.json |
+| Sandbox directory | ✅ | ~/qwen-sandbox/ |
+| Lesson template | ✅ | module-templates/lesson-template.md |
+| Install script | ✅ | scripts/install.sh |
+| qwen-tutor skill | ✅ | Ad-hoc learning |
+| Website | ✅ | GitHub Pages live |
 
-## Website
+## Version History
 
-| Page | Status | Notes |
-|------|--------|-------|
-| Landing page | 📋 | Planned |
-| Install guide | 📋 | Planned |
-| Module summaries | 📋 | Planned |
-| Troubleshooting | 📋 | Planned |
-
-## Milestones
-
-- **v0.1:** Modules 0-2 working + /course command + progress tracking
-- **v0.2:** Modules 3-5 + test-out + cheatsheet
-- **v0.3:** Modules 6-8 + ad-hoc skill
-- **v1.0:** Modules 9-11 + website + GitHub public release
+| Course Version | Date | Notes |
+|---------------|------|-------|
+| v0.1 | 2026-04-06 | Modules 0-2 |
+| v1.0 | 2026-04-06 | All 12 modules complete |

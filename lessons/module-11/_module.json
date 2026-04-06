@@ -1,0 +1,14 @@
+{
+  "module": 11,
+  "title": "Your Real Project",
+  "description": "Put everything together — plan, build, and ship a real project using all the skills you've learned.",
+  "lessons": 4,
+  "estimated_time": "45 minutes",
+  "prerequisites": ["module-10"],
+  "learning_objectives": [
+    "Choose a well-scoped first project that's neither too easy nor too hard",
+    "Plan a project with Qwen Code using structured breakdown and file layout",
+    "Build the project using commands, tools, skills, MCP, hooks, and memory together",
+    "Ship the project with git integration and deployment"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "module": 3,
+  "title": "Files & Projects",
+  "description": "Organize your work and manage project structure with Qwen Code.",
+  "lessons": 5,
+  "estimated_time": "25 minutes",
+  "prerequisites": ["module-2"],
+  "learning_objectives": [
+    "Create and organize directory structures for different project types",
+    "Build multi-file projects and understand how files connect",
+    "Identify and work with different file types (.txt, .py, .md, .json, .sh)",
+    "Navigate and work with large files efficiently",
+    "Create reusable project templates and boilerplate structures"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "module": 1,
+  "title": "What Is Qwen Code?",
+  "description": "Understand what Qwen Code is, what it isn't, and how it thinks. Build the mental model that makes everything else click.",
+  "lessons": 4,
+  "estimated_time": "15 minutes",
+  "prerequisites": ["module-0"],
+  "learning_objectives": [
+    "Explain what Qwen Code is in your own words",
+    "Understand the difference between Qwen Code and ChatGPT/Claude",
+    "Know how Qwen Code thinks in tools, not just text",
+    "Understand the safety model (approval modes)"
+  ]
+}

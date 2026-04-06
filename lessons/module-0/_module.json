@@ -1,0 +1,13 @@
+{
+  "module": 0,
+  "title": "Your First 5 Minutes",
+  "description": "Get Qwen Code running and do something real in under 5 minutes. Zero prior experience needed.",
+  "lessons": 3,
+  "estimated_time": "5 minutes",
+  "prerequisites": [],
+  "learning_objectives": [
+    "Open a terminal and understand what it is",
+    "Install and launch Qwen Code",
+    "Run your first command and see immediate output"
+  ]
+}

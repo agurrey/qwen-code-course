@@ -1,0 +1,16 @@
+{
+  "module": 2,
+  "title": "Your First Commands",
+  "description": "Learn the core commands that make Qwen Code useful every day: reading files, editing, running commands, and searching.",
+  "lessons": 6,
+  "estimated_time": "30 minutes",
+  "prerequisites": ["module-0", "module-1"],
+  "learning_objectives": [
+    "Read and understand files with Qwen Code",
+    "Edit files using Qwen Code",
+    "Run shell commands safely",
+    "Search your codebase with grep and glob",
+    "Fetch web content",
+    "Combine tools to solve a real problem"
+  ]
+}

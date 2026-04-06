@@ -34,6 +34,16 @@
 
 **v1.0:** All 12 modules complete. 60 lessons, ~6 hours total.
 
+## Free Gift: /pre-plan
+
+Before building anything — think.
+
+[`/pre-plan`](https://github.com/agurrey/pre-plan) is a standalone thinking tool I built for myself and now give away for free. It walks you through 5 phases of structured thinking before you write a single line of plan.
+
+Surfaces blind spots, hidden decisions, and wrong assumptions. Works for anything — projects, products, decisions.
+
+**Get it:** https://github.com/agurrey/pre-plan
+
 ## Quick Start
 
 ```bash

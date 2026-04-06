@@ -47,6 +47,10 @@
         .gift-section h3 { color: #38bdf8; font-size: 1.5rem; margin-bottom: 0.5rem; }
         .gift-section p { color: #cbd5e1; margin-bottom: 1rem; }
         .gift-badge { display: inline-block; background: #f59e0b; color: #0f172a; padding: 0.3rem 1rem; border-radius: 9999px; font-size: 0.85rem; font-weight: 700; margin-bottom: 1rem; }
+        .disclaimer { background: #450a0a; border: 1px solid #dc2626; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; }
+        .disclaimer h3 { color: #fca5a5; font-size: 1.1rem; margin-bottom: 0.5rem; }
+        .disclaimer p { color: #fca5a5; font-size: 0.9rem; margin-bottom: 0.5rem; }
+        .disclaimer strong { color: #fecaca; }
     </style>
 </head>
 <body>
@@ -57,7 +61,7 @@
         <div>
             <a href="#modules">Modules</a>
             <a href="#install">Install</a>
-            <a href="#why">Why This</a>
+            <a href="#disclaimer">Security</a>
             <a href="https://github.com/agurrey/qwen-code-course" target="_blank">GitHub</a>
         </div>
     </div>
@@ -183,6 +187,17 @@ qwen
             <li>A real project built entirely with Qwen Code</li>
             <li>A personalized cheat sheet for daily reference</li>
         </ul>
+    </div>
+</section>
+
+<section id="disclaimer">
+    <div class="container">
+        <div class="disclaimer">
+            <h3>⚠️ Security &amp; Privacy Disclaimer</h3>
+            <p><strong>Run Qwen Code in a virtual machine.</strong> Qwen Code is developed by Alibaba Group, a Chinese company. The OAuth authentication and all data you send through Qwen Code — your code, prompts, file contents, and project context — may be accessible to Chinese authorities under Chinese law.</p>
+            <p><strong>Do not use Qwen Code on your host machine</strong> with sensitive data: proprietary code, personal credentials, client information, or anything you wouldn't want exposed. Use a VM with no access to your real files, and use a throwaway OAuth account if possible.</p>
+            <p>This course teaches you how to use Qwen Code effectively, but <strong>you are responsible for your own security</strong>. The sandbox directory (`~/qwen-sandbox/`) only protects files within it — Qwen Code can still read and write anywhere on the machine it runs on.</p>
+        </div>
     </div>
 </section>
 
